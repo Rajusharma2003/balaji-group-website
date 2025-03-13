@@ -144,7 +144,7 @@
 
 @media (max-width: 991px) {
     .header-top {
-        max-height: 80px;
+        max-height: 90px;
     }
 
     .navbar {
@@ -178,7 +178,7 @@
         height: 600px;
         top: -200px;
         right: 18px;
-        background: var(--bs-dark);
+        /* background: var(--bs-dark); */
         transform: rotate(-18deg);
         z-index: -1;
     }
@@ -191,13 +191,13 @@
         height: 600px;
         top: -200px;
         right: 18px;
-        background: var(--bs-primary);
+        /* background: var(--bs-primary); */
         transform: rotate(-18deg);
         z-index: -1;
     }
 
     .navbar.navbar-light {
-        height: 100%;
+        /* height: 100%; */
         padding: 0;
     }
 
@@ -384,7 +384,7 @@
 
 /*** Carousel Hero Header Start ***/
 .hero-section {
-    background-image: url(../img/carousel-1.jpg);
+    background-image: url("../img/carousel-1.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
