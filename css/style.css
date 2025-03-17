@@ -16,8 +16,8 @@
 
 .back-to-top {
     position: fixed;
-    right: 30px;
-    bottom: 30px;
+    right: 28px;
+    bottom: 100px;
     transition: 0.5s;
     z-index: 99;
 }
@@ -384,7 +384,7 @@
 
 /*** Carousel Hero Header Start ***/
 .hero-section {
-    background-image: url("../img/carousel-1.jpg");
+    background-image: url("https://sampackindia.com/wp-content/uploads/2023/01/PAGE-01-BAND-SEALER.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -397,7 +397,7 @@
 
 .hero-bg-half-1 {
     background-image: url(../img/header-2.jpg);
-    clip-path: polygon(37% 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(100% 300%, 100% 0%, 100% 100%, 0% 100%);
     filter: grayscale(10%);
     transform: scale(100% - 50%);
     background-position: center right;
@@ -412,7 +412,7 @@
 
 .hero-bg-half-2 {
     background-image: url(../img/header-1.jpg);
-    clip-path: polygon(37% 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(100% 300%, 100% 0%, 100% 100%, 0% 100%);
     filter: grayscale(10%);
     transform: scale(100% - 50%);
     background-position: center right;
@@ -1007,5 +1007,51 @@
 
 
 
+/* This is the whatsapp section */
+/* whatsapp */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .1s all ease-in-out;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: white;
+    box-shadow: 0 0 .75rem #18d26e;
+    background-color: #18d26e;
+  }
+  
+  .whatsapp:hover {
+    background-color: white;
+    color: #18d26e;
+  }
+  
+  .call {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 60px;
+    transition: .1s all ease-in-out;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: white;
+    background-color: #222222;
+    box-shadow: 0 0 .5rem #eee;
+  }
+  
+  .call:hover {
+    background-color: white;
+    color:#222222;
+  }
+/* End whatsapp section */
 
 
